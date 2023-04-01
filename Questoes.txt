@@ -1,0 +1,26 @@
+1) 10 * 4 - 8 + 24 / 8 
+   R: 35.
+
+2) A diferença entre os operadores == e === ? Quando usar um ou outro?
+   R: O Operador == não valida o tipo de dado entre as variáveis comparadas, 
+      deve ser usada quando não se tem a necessidade de comparar o tipo de dados 
+      mas se tem certeza de que os mesmos são compativeis; 
+      O Operador === valida o tipo de dado entre as variaveis comparadas, 
+      e ao meu ver deve sempre ser usado quando os dados não podem ser de tipos diferentes entre as comparações.
+
+
+3) R: O erro causado é: Loop infinito.
+
+4) R: No primreiro console será exibido: novoNumero = 9.
+      No segundo console sera exibido: a = 3 
+  
+5) R: No primeiro console(a === b) =  false.
+      No Segundo  console(a.nome === b.nome) =  true.
+      No terceiro console = {nome: 'Maria'}.
+      No quarto   console = {nome: 'Pedro'}.
+      No quinto   console = false.
+
+6) creio que a linguagem usada nesta questão não seja o JS mas se for C# e para ser o mesmos
+   salvo valor de arredondamento.
+   O resultaso de X é 12 e o de Y é 19,4 isso no JS, no C# ele retorna 20.
+   O legal desta questão e o uso do operado ternario, o retorno dele assume o x(y) da direita ai entra o x += resultado do ternario;

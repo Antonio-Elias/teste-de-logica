@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+:root {
+    --primary-color: rgb(17, 86, 102);
+    --primary-color-darker: rgb(9, 48, 56);
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+  }
+
+
+  .container {
+    max-width: 640px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .container h1{
+    text-align: center;
+  }
+
+  .container .resultado{
+    display: block;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    border-bottom: 1px solid var(--primary-color-darker);
+    font-size: 24px;
+    height: 40px;
+    padding: 0 20px;
+    text-align: center;
+    font-weight: bold;
+    color: var(--primary-color);
+
+  }
+
+form div input, form div label, form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form input{
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+  }
+  
+  form input:focus {
+    outline: 1px solid var(--primary-color);
+  }
+  
+  form button {
+    border: none;
+    background: var(--primary-color);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+  }
+  
+  form button:hover {
+    background: var(--primary-color-darker);
+  }
+
+
+  /*alguns ajustes com media querie*/
+
+  @media (max-width: 690px){
+
+
+    .container{
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+
+  }
+
+  @media  (max-width: 390px){
+    .container h1{
+      font-size:24px ;
+    }
+
+    .container .resultado{
+      font-size: 14px;
+      height: auto;
+      
+    }
+
+    .container{
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+
+    form div label{
+      font-size: 18px;
+    }
+
+  }
+
+
+
+
+

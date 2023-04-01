@@ -1,0 +1,3 @@
+As questões estão no arquivo questão.
+
+Para a atividade 11 tinha feito via prompt,mas resolvi migrar para web, porem deixei as duas para analizarem.

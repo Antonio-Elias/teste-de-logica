@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+:root {
+    --primary-color: rgba(132, 17, 250, 1);
+    --primary-color-darker: rgba(33, 37, 41, 0.863);
+    --bg-color-button: rgba(199, 151, 15, 1);
+    --bg-color-container: #f8e8e8;
+    --color-button: rgba(33, 37, 41, 0.986);
+    --color-error: rgb(245, 8, 8);
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+  }
+
+
+  .container {
+    max-width: 640px;
+    min-width: 310px;
+    margin: 50px auto;
+    background: var(--bg-color-container);
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .container h1{
+    text-align: center;
+    color: var(--primary-color-darker);
+  }
+
+  .container .notas{
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 20px 0 10px 0;
+    border: 1px solid var(--primary-color);
+    border-radius: 10px;
+    font-size: 16px;
+    height: 120px;
+    padding: 5px 20px;
+    line-height: 1.3em;
+    color: var(--primary-color-darker);
+
+  }
+
+  .informa-notas-disponiveis{
+    color: var(--primary-color);
+    text-align: center;
+    width: 100%;
+    margin-bottom: 3px;
+  }
+
+form div input, form div label, form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  color: var(--primary-color-darker);
+}
+form div label{
+  font-weight: bold;
+}
+
+form input{
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+    border: solid 1px var(--primary-color);
+    background-color: var(--bg-color-container);
+  }
+  
+  form input:focus {
+    outline: 1px solid var(--primary-color);
+  }
+  
+  form button {
+    border: none;
+    background: var(--primary-color);
+    color: var(--bg-color-container);
+    font-size: 20px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+  }
+  form input::placeholder{
+    font-size: 18px;
+  }
+  
+  form button:hover {
+    background: var(--bg-color-button);
+    color: var(--color-button);
+  }
+
+  .erro{
+    color: var(--color-error);
+  }
+
+  .informa-notas-disponiveis{
+    color: var(--primary-color);
+  }
+
+
+
+
+      /*algumas midias queries*/
+  @media (max-width: 690px){
+
+
+    .container{
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+
+  }
+
+  @media  (max-width: 390px){
+    .container h1{
+      font-size:24px ;
+    }
+
+    .container .notas{
+      font-size: 14px;
+      height: auto;
+      
+    }
+
+    .container{
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+
+
+
+  }
+
+
+
+
+

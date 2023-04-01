@@ -1,0 +1,7 @@
+Para esta atividade usei o o inquirer que é responsavel por exibir mensagem e capturar o que é digitado.
+Usei tambem o chalk ele é apenas uma forma de mostra a resposta via prompt de forma mais amigavel.
+
+eu tinha feito ele primeiro mas resolvi migrar para web, mas resolvi deixar o mesmo tambem.
+
+Antes de executar o programa, acessar a pasta onde esta a atividade via prompt ou power shell ir na pasta e digitar npm istall, para instalar as dependencias.
+Para executar o programa basta digitar npm start e usar o programa.
